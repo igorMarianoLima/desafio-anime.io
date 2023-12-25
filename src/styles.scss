@@ -29,3 +29,16 @@ body {
     min-height: 100vh;
     background: var(--dark-010);
 }
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1216px) {
+        padding: 0 32px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 24px;
+    }
+}
