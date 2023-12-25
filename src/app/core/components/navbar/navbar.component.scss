@@ -1,0 +1,32 @@
+header {
+    padding: 40px 0;
+    background-color: var(--dark-010);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.navbar__items {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    a {
+        font: 500 18px 'Inter';
+    }
+}
+
+h1 {
+    color: var(--brand-color);
+    font-size: 40px;
+    font-weight: 500;
+}
