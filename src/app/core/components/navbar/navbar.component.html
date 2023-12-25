@@ -1,1 +1,13 @@
-<p>navbar works!</p>
+<header class="navbar">
+    <div class="container">
+        <h1>Ani.me</h1>
+
+        <div class="navbar__items">
+            <menu>
+                <li *ngFor="let link of navbarLinks">
+                    <a [routerLink]="link.path">{{ link.label }}</a>
+                </li>
+            </menu>
+        </div>
+    </div>
+</header>
