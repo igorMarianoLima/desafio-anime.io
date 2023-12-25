@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Rubik:wght@400;500&display=swap');
 
+:root {
+    --brand-color: #00A3FF;
+
+    --dark-010: #06090F;
+    --dark-020: #151B26;
+    --dark-030: #BFBFBF;
+    --dark-040: #F1F1F1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,4 +22,9 @@
 
     border: 0;
     outline: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--dark-010);
 }
